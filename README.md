@@ -6,7 +6,8 @@
 法律声明：本文所有技术细节仅用于安全研究目的，禁止用于非法用途。
 
 zoomeye-ollama.py  //通过Zoomeye API 搜索全网Ollama自建大模型服务器，保存到a.csv文件
-get-ollama.py  //将a.csv里的 URL保存到a1.txt文件里，开始多线程获取服务器里模型搭建情况以及版本等信息
+
+get-ollama.py  //将a.csv里的 URL保存到a1.txt文件里，开始多线程获取服务器里模型搭建情况以及版本等信息，保存到b1.csv内
 
 关键功能说明（结合搜索结果）：
 ​ZoomEye集成方案
