@@ -10,9 +10,13 @@ zoomeye-ollama.py  //通过Zoomeye API 搜索全网Ollama自建大模型服务�
 get-ollama.py  //将a.csv里的 URL保存到a1.txt文件里，开始多线程获取服务器里模型搭建情况以及版本等信息，保存到b1.csv内
 
 高危操作接口
+
 接口路径        HTTP方法  风险等级  影响范围
+
 /api/pull      POST      严重    远程下载任意模型
+
 /api/delete    DELETE    高危    删除已有模型
+
 /api/generate  POST      中危    模型推理操作
 
 关键功能说明（结合搜索结果）：
